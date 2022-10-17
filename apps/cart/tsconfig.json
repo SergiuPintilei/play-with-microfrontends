@@ -1,0 +1,5 @@
+{
+  "extends": "tsconfig/nextjs.json",
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "../../packages/cart-content/CartContent.tsx"],
+  "exclude": ["node_modules"]
+}
